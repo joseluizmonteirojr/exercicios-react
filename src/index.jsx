@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Component from './component';
+import { Primeiro, Segundo } from './component';
 
 
-ReactDOM.render(
-    <Component value='Show shazam'/>,
-    document.getElementById('app')
+ReactDOM.render([
+        <Primeiro key='1'/>,
+        <Segundo key='2'/>
+    ],document.getElementById('app')
 )
