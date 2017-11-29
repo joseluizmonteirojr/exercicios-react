@@ -4,6 +4,6 @@ import Component from './component';
 
 
 ReactDOM.render(
-    <Component/>,
+    <Component value='Show shazam'/>,
     document.getElementById('app')
 )
